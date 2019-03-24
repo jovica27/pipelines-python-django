@@ -5,6 +5,8 @@ pool:
   
 variables:
   imageName: 'pythonsample:$(Build.BuildId)'
+  dockerId: MAJVersionControl
+  dockerPassword: gGOWCCsNMiajfAKcy4I=1Su0PRa1grC7
   # define two more variables dockerId and dockerPassword in the build pipeline in UI
 
 steps:
